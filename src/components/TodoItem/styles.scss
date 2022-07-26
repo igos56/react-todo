@@ -1,0 +1,24 @@
+.item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: rgb(173, 202, 249);
+  border-left: 6px solid rgb(0, 149, 255);
+  box-shadow: rgba(128, 128, 128, .4) 6px 6px 3px;
+  @media (max-width: 520px) {
+    width: 350px;
+  }
+  @media (max-width: 375px) {
+    width: 300px;
+  }
+  .btn-delete {
+    width: 30px;
+    height: 30px;
+    background: url(../../assets/img/trash.png);
+    background-size: cover;
+    cursor: pointer;
+  }
+}
